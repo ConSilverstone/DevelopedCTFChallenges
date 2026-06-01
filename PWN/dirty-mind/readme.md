@@ -24,13 +24,13 @@ If I were to draw a cat's behind, i'd probably use a certain symbol but I can't 
   
 <details>
 <summary>Solution & Flag</summary>
-Solution: Secure shell connection that can be bruteforced as the password is weak (butthole) to gain access. Either by a lucky guess or using Hydra. Good example on <link href="https://www.geeksforgeeks.org/linux-unix/how-to-use-hydra-to-brute-force-ssh-connections/"> geekforgeeks. </link>   
+Solution: Secure shell connection that can be bruteforced as the password is weak (butthole) to gain access. Either by a lucky guess or using Hydra. Good example on [geekforgeeks.](https://www.geeksforgeeks.org/linux-unix/how-to-use-hydra-to-brute-force-ssh-connections/)  
 <details>
 <summary>Example</summary>
 hydra -L user.txt (containing username dirtymind) -P /usr/share/wordlists/rockyou.txt 10.0.0.42 ssh -t 4  
 </details>
-
-Once entry has been retrieved the find command can be used to reveal unusal file permissions and cross reference unexpected files using <link href="https://gtfobins.org/GTFO"> GTFOBins </link>. The Asterisk executable will appear to be vulnrable at a user level (dirtymind) to which:  
+  
+Once entry has been retrieved the find command can be used to reveal unusal file permissions and cross reference unexpected files using [GTFOBins.](https://gtfobins.org/GTFO) The Asterisk executable will appear to be vulnrable at a user level (dirtymind) to which:  
 asterisk -r  
 !/bin/sh  
 can be perfomed by any user to reach root access.  
