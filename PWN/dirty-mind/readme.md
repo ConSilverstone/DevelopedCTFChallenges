@@ -1,9 +1,9 @@
 # Dirty Mind Metadata
-**Year of Creation:** 2026
-**Author(s):** Connor Gallagher (ConSilverstone)
-**Challenge Name:** dirty-mind
-**Category:** PWN
-**Difficulty:** Medium-Hard
+**Year of Creation:** 2026  
+**Author(s):** Connor Gallagher (ConSilverstone)  
+**Challenge Name:** dirty-mind  
+**Category:** PWN  
+**Difficulty:** Medium-Hard  
 
 ## Description:  
 Notorious online criminal dirtymind has no interest in security.  
