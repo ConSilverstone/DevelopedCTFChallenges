@@ -15,11 +15,11 @@ Hidden as a comment in the Terms and Conditions of ltdh.enusec.org is the flag.
 </details>
 <details>
 <summary>Hint 2:</summary>
-'<!-- Wierd symbols but okay -->'  
+< !-- Wierd symbols but okay -- >  
 </details>
   
 <details>
 <summary>Solution & Flag</summary>
-Hidden as a comment in the Terms and Conditions of ltdh.enusec.org is the flag.
+Hidden as a comment in the Terms and Conditions of ltdh.enusec.org is the flag.  
 Flag: ltdh{Ch3ckTh3C0mm3nts}
 </details>
