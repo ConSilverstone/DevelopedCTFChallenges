@@ -24,7 +24,7 @@ If I were to draw a cat's behind, i'd probably use a certain symbol but I can't 
   
 <details>
 <summary>Solution & Flag</summary>
-Solution: Secure shell connection that can be bruteforced as the password is weak (butthole) to gain access. Either by a lucky guess or using Hydra. Good example on [geekforgeeks](https://www.geeksforgeeks.org/linux-unix/how-to-use-hydra-to-brute-force-ssh-connections/).  
+Solution: Secure shell connection that can be bruteforced as the password is weak (butthole) to gain access. Either by a lucky guess or using Hydra. Good example on [geekforgeeks](https://www.geeksforgeeks.org/linux-unix/how-to-use-hydra-to-brute-force-ssh-connections).  
 <details>
 <summary>Example</summary>
 hydra -L user.txt (containing username dirtymind) -P /usr/share/wordlists/rockyou.txt 10.0.0.42 ssh -t 4  
