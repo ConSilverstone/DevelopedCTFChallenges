@@ -1,9 +1,9 @@
 # 2nd Circle of Hell
-**Year of Creation:** 2026
-**Author(s):** Connor Gallagher (ConSilverstone), Eden Osborne
-**Challenge Name:** the-2nd-circle-of-hell
-**Category:** Cryptography
-**Difficulty:** Trival-Easy
+**Year of Creation:** 2026  
+**Author(s):** Connor Gallagher (ConSilverstone), Eden Osborne  
+**Challenge Name:** the-2nd-circle-of-hell  
+**Category:** Cryptography  
+**Difficulty:** Trival-Easy  
   
 ## Description:  
 A paranoid criminal creates a cypher to transfer illegal images via email.  
