@@ -1,0 +1,2 @@
+Solution: Massive hexadecimal text file, most websites will stall when trying to take it. Best method for decrypting is to write a program in your prefered language to take the text file as input and change each hexadecimal to it's corresponding pixel colour. Then reassemble the image.
+Flag: LTDH26{1N_TH3_SYST3M}

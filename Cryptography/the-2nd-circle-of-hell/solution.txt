@@ -1,0 +1,3 @@
+Solution: A crypography challenge that is a base64 encoded message. It has been encoded 5 times. The string must be de-encoded 5 times to reveal the flag.
+
+flag: freshers{illegal_image}

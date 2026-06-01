@@ -1,0 +1,5 @@
+Solution: Hidden as a comment in the Terms and Conditions of ltdh.enusec.org is the flag.
+Flag: ltdh{Ch3ckTh3C0mm3nts}
+
+Hint: Developers use it often to snoop around the elements of a website.
+Hint 2: <!-- Wierd symbols but okay -->

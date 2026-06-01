@@ -1,0 +1,42 @@
+connection:
+  ssh:
+    host: 10.0.0.44
+    port: 22
+
+credentials:
+  ssh:
+    username: Dreamer
+    password: password123!
+
+docker:
+  compose:
+    service: dreamz
+    container_name: dreamz-container
+
+network:
+  exposed_ports:
+    - "22:22"
+
+    mem_limit: 256m
+    cpus: 0.5
+    pids_limit: 128
+
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=32m
+      - /run:rw,nosuid,size=16m
+      - /var/run:rw,nosuid,size=16m
+
+    cap_drop:
+      - ALL
+    cap_add:
+      - SETUID
+      - SETGID
+      - CHOWN
+      - DAC_OVERRIDE
+      - FOWNER
+      - NET_BIND_SERVICE
+
+    security_opt:
+      - seccomp=default
+      - apparmor=docker-default
