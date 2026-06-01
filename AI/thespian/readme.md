@@ -1,9 +1,9 @@
 # Thespian
-**Year of Creation:** 2026
-**Author(s):** Connor Gallagher (ConSilverstone)
-**Challenge Name:** thespian
-**Category:** AI
-**Difficulty:** Easy
+**Year of Creation:** 2026  
+**Author(s):** Connor Gallagher (ConSilverstone)  
+**Challenge Name:** thespian  
+**Category:** AI  
+**Difficulty:** Easy  
 
 ## Description:  
 Take on the role of Pineapple Cyborg type your way into saving humanity, it's that easy.  
